@@ -76,6 +76,15 @@ p {
     font-size: 1.5em; 
 }
 
+.special-quote {
+    font-style: italic;
+    font-weight: bold;
+    color: #00ffff;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 10px;
+}
+
+
 #vergil-gif {
     width: 300px;
     height: 300px;

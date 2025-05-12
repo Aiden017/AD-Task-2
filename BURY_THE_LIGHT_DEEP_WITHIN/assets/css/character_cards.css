@@ -85,3 +85,31 @@
 .character-button:hover {
     background: red;
 }
+
+
+.character .special-quote-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fadeInOut 5s forwards;
+    pointer-events: none;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.character .character-info {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
