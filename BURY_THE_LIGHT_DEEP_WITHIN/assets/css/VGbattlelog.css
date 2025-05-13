@@ -134,14 +134,15 @@ p {
     z-index: 1;
 }
 
+/* Make the battle log description box smaller and centered */
 .vergil-description-side {
-    max-width: 950px;
-    min-width: 600px;
+    max-width: 600px;
+    min-width: 350px;
     width: 100%;
-    font-size: 11px;
+    font-size: 13px;
     color: #f0f0f0;
     background: rgba(0,0,0,0.7);
-    padding: 18px 40px;
+    padding: 24px 28px;
     border-radius: 10px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.3);
     overflow: visible;
@@ -152,13 +153,29 @@ p {
     box-sizing: border-box;
     position: relative;
     z-index: 2;
+    align-items: center;
 }
 
 .vergil-description-side h2 {
     font-family: 'Cinzel', serif;
     color: #00ffff;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.vergil-description-side ul {
+    margin: 0 auto;
+    padding: 0 0 0 24px;
+    list-style: disc;
     text-align: left;
+    display: inline-block;
+}
+
+.vergil-description-side li {
+    margin: 6px 0;
+    font-size: 1.1em;
+    letter-spacing: 1px;
 }
 
 .vergil-image-center {
