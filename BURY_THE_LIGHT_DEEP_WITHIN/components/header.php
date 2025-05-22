@@ -25,8 +25,6 @@ body > *:first-child {
     /* --- HEADER WIDTH: Use 100% to prevent horizontal scroll --- */
     width: 100%;
     /* --- Remove negative margins to avoid overflow --- */
-    /* margin-left: calc(50% - 50vw); */
-    /* margin-right: calc(50% - 50vw); */
     min-height: 80px;
     padding: 10px 30px;
     background: linear-gradient(90deg, #0d1b3e 0%, #1e90ff 50%, #ff2a2a 100%);

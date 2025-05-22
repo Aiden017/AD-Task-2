@@ -29,9 +29,6 @@ body > *:first-child {
 .dmc5-footer {
     /* Make footer span full width without overflow */
     width: 100%;
-    /* Remove negative margins to avoid horizontal scroll */
-    /* margin-left: calc(50% - 50vw); */
-    /* margin-right: calc(50% - 50vw); */
     min-height: 30px;
     padding: 10px 30px;
     background: linear-gradient(90deg, #0d1b3e 0%, #1e90ff 50%, #ff2a2a 100%);
