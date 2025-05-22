@@ -1,3 +1,4 @@
+<?php include_once __DIR__ . '/../components/header.php'; ?>
 <?php
     $name = "Dante";
     $title = "THE Legendary Devil Hunter";
@@ -30,3 +31,4 @@
     <a href="Dantebattlelog.php">View Battle Log</a>
 </body>
 </html>
+<?php include_once __DIR__ . '/../components/footer.php'; ?>

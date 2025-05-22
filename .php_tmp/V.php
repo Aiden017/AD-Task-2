@@ -1,3 +1,4 @@
+<?php include_once __DIR__ . '/../components/header.php'; ?>
 <?php
     $name = "V";
     $title = "The Mysterious One";
@@ -30,3 +31,4 @@
     <a href="Vsbattlelog.php">View Battle Log</a>
 </body>
 </html>
+<?php include_once __DIR__ . '/../components/footer.php'; ?>

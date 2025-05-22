@@ -1,3 +1,4 @@
+<?php include_once __DIR__ . '/../components/header.php'; ?>
 <?php
     $battles = array("Mundus", "Nelo Angelo", "Arius", "Urizen", "Vergil");
 ?>
@@ -28,3 +29,4 @@
     <a href="../index.php">Return to Home</a>
 </body>
 </html>
+<?php include_once __DIR__ . '/../components/footer.php'; ?>
