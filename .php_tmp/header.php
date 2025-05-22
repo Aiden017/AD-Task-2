@@ -1,5 +1,5 @@
 <?php
-// DMC5 Header - No gap above, scrolls normally
+
 ?>
 <style>
 /* Force body and html to have no spacing */
