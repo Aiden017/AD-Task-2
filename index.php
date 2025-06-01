@@ -29,11 +29,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DMC5 Characters</title>
+    <title>DMC5 Characters</title> 
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/design.css">
-    <link rel="stylesheet" href="./assets/css/mainstyles.css">    <link rel="stylesheet" href="./assets/css/character_cards.css">
-    <script src="./assets/js/special-quote-fade.js"></script>
+    <link rel="stylesheet" href="./assets/css/mainstyles.css">
+    <link rel="stylesheet" href="./assets/css/character_cards.css">
+    <script src="./assets/js/special-quote.js"></script>
 </head>
 <body>
     <div class="dmc5-logo">

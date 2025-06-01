@@ -61,7 +61,7 @@
 .character:hover .character-title {
     opacity: 1;
 }
-
+  
 .character a {
     position: relative;
     z-index: 10;
