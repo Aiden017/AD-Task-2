@@ -4,7 +4,7 @@
         ["name" => "V", "title" => "THE MYSTERIOUS ONE", "weapon" => "Grimoire", "image_url" => "https://pbs.twimg.com/media/Dt0-gbTUcAALF3m?format=jpg&name=4096x4096"],
         ["name" => "Dante", "title" => "THE LEGENDARY DEVIL HUNTER", "weapon" => "Rebellion", "image_url" => "https://pbs.twimg.com/media/DppleIRV4AAPD-f?format=jpg&name=4096x4096"],
         ["name" => "Vergil", "title" => "THE ALPHA AND OMEGA!", "weapon" => "Yamato", "image_url" => "https://scontent.fcrk1-4.fna.fbcdn.net/v/t1.6435-9/55664423_2314458478787773_1858613519289679872_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=emygNrOIElAQ7kNvwGrt_4A&_nc_oc=AdkTMj1X5NXTQS3UiJl0uej9xgsQZnJ9nuNKC_AFlKC282qYo-WiuOZ-PibjYnANSZY&_nc_zt=23&_nc_ht=scontent.fcrk1-4.fna&_nc_gid=lLW4yEDehVgDasLtM8S1rw&oh=00_AfImefeT9ygefnwv7F2bDkEEDYTtOejEzhY2ymODOP1Mig&oe=684944E3"]
-    ];  
+    ];
     function display_character($character) {
         $pageFolder = ucfirst(strtolower($character["name"])) . "Page";
         $pageFile = $character["name"] . ".php";
